@@ -66,7 +66,7 @@ class theme_code extends Frontend {
 		$GLOBALS['TL_MOOTOOLS'][] = $objTheme->tc_footer;
 
 		// after the first run the code is in the page so we can skip parsing all other templates
-		$GLOBALS['theme_code_stop'] = 'true';
+		$GLOBALS['theme_code_stop'] = true;
 
 		return $strContent;
 	}

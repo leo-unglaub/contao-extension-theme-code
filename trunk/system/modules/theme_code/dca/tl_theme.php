@@ -31,7 +31,7 @@
 /**
  * Palettes
  */
-$GLOBALS['TL_DCA']['tl_theme']['palettes']['default']	= str_replace('screenshot', 'screenshot;{tc_legend},tc_header,tc_footer;', $GLOBALS['TL_DCA']['tl_theme']['palettes']['default']);
+$GLOBALS['TL_DCA']['tl_theme']['palettes']['default'] = str_replace('screenshot', 'screenshot;{tc_legend},tc_header,tc_footer;', $GLOBALS['TL_DCA']['tl_theme']['palettes']['default']);
 
 /**
  * Fields
